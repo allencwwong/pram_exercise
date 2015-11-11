@@ -1,0 +1,10 @@
+
+
+
+<h1>Prama App</h1>
+<%  if @message[0].downcase == 'a' %>
+<p>Hey, your name starts with the first letter of the alphabet!"</p>
+<% else %>
+<%= @message %>
+<%  end %>
+

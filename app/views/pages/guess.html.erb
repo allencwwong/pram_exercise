@@ -1,0 +1,10 @@
+<h1>Number guessing </h1>
+<%= @random_number %>
+<% if @guess_number > @random_number %>
+  <p>Sorry your number is your number is too big!!</p>
+  <% else %>
+    <p>Sorry your number is your number is too small</p>
+  <%end%>
+
+
+<p> Your got it! Winning number <%= @guess_number %> </p>
